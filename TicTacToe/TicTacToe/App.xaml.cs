@@ -13,7 +13,7 @@ namespace TicTacToe
         {
             InitializeComponent();
 
-            MainPage = new TicTacToe.MainPage();
+            MainPage = new Page1();
         }
 
         protected override void OnStart()
