@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Xamarin.Forms;
 
-namespace TicTacToe
+namespace TicTacToe.Droid
 {
     public partial class App : Application
     {
         public App()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
             MainPage = new Page1();
         }
